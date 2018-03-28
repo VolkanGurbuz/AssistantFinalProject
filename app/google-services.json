@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "77987648063",
+    "firebase_url": "https://asistangadget.firebaseio.com",
+    "project_id": "asistangadget",
+    "storage_bucket": "asistangadget.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77987648063:android:fee8dfa5d4d5f1f3",
+        "android_client_info": {
+          "package_name": "com.volkangurbuz.intro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77987648063-t7fjjvop4l12g82ctfmusrvtsateu18v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.volkangurbuz.intro",
+            "certificate_hash": "839838eacd45837f979879e9f961f6b7641c7df0"
+          }
+        },
+        {
+          "client_id": "77987648063-1u3t23dbsmid99m7cs9p4u2hqih4dfk4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw1lrM8G8UJ8cKEd-Xh2Hyy8v71eMri9o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "77987648063-1u3t23dbsmid99m7cs9p4u2hqih4dfk4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

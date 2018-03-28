@@ -1,0 +1,62 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.volkangurbuz.intro.ThreeFragment">
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:text="Sözleşme"
+          android:textSize="20dp"
+          android:layout_marginTop="25dp"
+          android:fontFamily="@string/font_family_condensed"
+          android:id="@+id/txtViewSozlesme" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:text="Sözleşme"
+          android:textSize="20dp"
+          android:layout_marginTop="25dp"
+          android:fontFamily="@string/font_family_condensed"
+          android:id="@+id/textView2" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/sozlesme"
+          android:layout_below="@+id/txtViewSozlesme"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="25dp"
+          android:textAlignment="center"
+          android:paddingLeft="25dp"
+          android:fontFamily="@string/font_family_condensed"
+          android:textColor="@android:color/black"
+          android:id="@+id/txtSozlesmeDetay"
+          android:gravity="start" />
+
+      <CheckBox
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Sozlesme sartlarını kabul ediyor musunuz? "
+          android:layout_below="@+id/txtSozlesmeDetay"
+          android:layout_alignParentStart="true"
+          android:layout_marginTop="33dp"
+          android:onClick="ischecked"
+          android:id="@+id/checkSozlesme" />
+
+
+  </RelativeLayout>
+
+
+
+
+
+</FrameLayout>

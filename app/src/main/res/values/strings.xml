@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Asistan Gadget</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">ileri</string>
+    <string name="skip">atla</string>
+    <string name="geri">geri</string>
+    <string name="start">tamamdır</string>
+
+
+    <string name="slide_1_title">Assistan Gadget!</string>
+    <string name="slide_1_desc">Kişisel yardımcı cep asistanınız. </string>
+
+    <string name="slide_2_title">Soru Sor</string>
+    <string name="slide_2_desc">İhtiyacınız olan cevabı bulmada yardımcı olur!</string>
+
+    <string name="slide_3_title">Yeni Bilgiler Keşfet</string>
+    <string name="slide_3_desc">İlgi alan puanınıza göre sizlere yeni bilgiler sunar ve kendinizi keşfetmenize olanak sağlar!</string>
+
+    <string name="slide_4_title">Bir Mesaj Yollayın</string>
+    <string name="slide_4_desc">Gerisini Asistanınız halledecektir.</string>
+
+    <string name="title_activity_deneme">Mesaj Kutusu</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string-array name="cinsiyetler">
+        <item>Erkek</item>
+        <item>Kadın</item>
+        <item>Belirtmek İstemiyorum</item>
+    </string-array>
+
+    <string name="action_settings">Settings</string>
+    <string name="sozlesme">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Sed eget arcu in neque lobortis scelerisque. Praesent commodo consectetur leo,
+        et rhoncus dui tristique placerat. Integer non lacus tempus, laoreet nunc non,
+        tristique elit. Pellentesque commodo euismod eros eget viverra. In at arcu quis libero tristique tempus.
+        Suspendisse feugiat orci est, et tristique elit rhoncus non. Sed at nulla non sapien laoreet fermentum.
+        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque ligula velit,
+        hendrerit eget finibus eget, iaculis et quam. Donec tincidunt mollis est vel aliquet. Etiam vitae felis vitae risus
+        pellentesque accumsan ac eget velit. Ut sit amet diam accumsan, gravida quam vel, varius ex. Vestibulum interdum nibh a
+        nibh posuere varius. Integer tempus ex vitae dolor ultricies auctor. Pellentesque malesuada tempus neque, quis tristique dolor
+        vulputate at. Vestibulum tempor dictum justo, nec rutrum libero fringilla eu. </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="hobiler">
+        <item>Bilgisayar</item>
+        <item>Kitap Okumak</item>
+        <item>Müzik Aleti Çalmak</item>
+        <item>Film İzlemek</item>
+        <item>Arkadaşlar ile Takılmak</item>
+        <item>Spor Yapmak</item>
+        <item>Yukardakilerin haricindekiler</item>
+    </string-array>
+
+    <string-array name="ilgiler">
+        <item>Teknoloji</item>
+        <item>Bilim</item>
+        <item>Programlama</item>
+        <item>Sanat</item>
+        <item>Edebiyat</item>
+        <item>Sinema</item>
+        <item>Müzik</item>
+        <item>Tarih</item>
+        <item>Moda</item>
+        <item>Politika</item>
+        <item>Spor</item>
+
+    </string-array>
+
+    <string-array name="anlamadimCevap">
+        <item>Üzgünüm Anlayamadım</item>
+        <item>Anlaşılmıyorsun bu aralar.</item>
+        <item>Neden seni anlayamıyorum?</item>
+        <item>Anlamsız mesajların beni yoruyor.</item>
+    </string-array>
+
+
+    <string-array name="nasilsinCevap">
+        <item>Tesekkur ederim.</item>
+        <item>Bitlerim iyi durumda.</item>
+        <item>Çok mersi</item>
+    </string-array>
+
+    <string-array name="yardimCevap">
+        <item>Nasıl yardımcı olabilirim?</item>
+        <item>Benden ne istersiniz?</item>
+        <item>Buyrunuz...</item>
+        <item>Yine ne istiyorsun, gelme üstüme bu aralar...</item>
+    </string-array>
+
+
+</resources>

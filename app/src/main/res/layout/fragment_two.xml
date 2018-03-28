@@ -1,0 +1,65 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.volkangurbuz.intro.TwoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+       <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+           android:layout_marginEnd="-45dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gadget"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:id="@+id/userHobiler"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:fontFamily="@string/font_family_condensed"
+            android:hint="hobileriniz"
+            android:textColor="@color/white"
+            android:onClick="hobilerAc"
+            android:textColorHint="@color/buttonColor"
+            android:textSize="15dp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true" />
+
+
+        <EditText
+            android:id="@+id/userilgiAlanlari"
+            android:layout_width="174dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@string/font_family_condensed"
+            android:hint="ilgi alanlarınız"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="ilgilerAc"
+            android:textColorHint="@color/buttonColor"
+            android:textSize="15dp"
+            android:layout_below="@+id/userHobiler"
+            android:layout_alignStart="@+id/userHobiler"
+            android:layout_alignEnd="@+id/userHobiler" />
+
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

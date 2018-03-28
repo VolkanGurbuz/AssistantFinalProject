@@ -1,0 +1,85 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.volkangurbuz.intro.OneFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <RadioGroup
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/cinsiyetler"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="44dp"
+            android:src="@drawable/gadget"
+            android:layout_above="@+id/userAd"
+            android:layout_alignParentEnd="true" />
+
+
+        <EditText
+            android:id="@+id/userAd"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/userYas"
+            android:layout_alignEnd="@+id/userYas"
+            android:layout_alignStart="@+id/userYas"
+            android:layout_gravity="center"
+            android:focusable="true"
+            android:fontFamily="@string/font_family_condensed"
+            android:gravity="center"
+            android:hint="isim"
+            android:inputType="textPersonName"
+            android:textColor="@color/buttonColor"
+            android:textColorHint="@color/buttonColor"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/userYas"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@string/font_family_condensed"
+            android:hint="yaşınız"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/buttonColor"
+            android:textColorHint="@color/buttonColor"
+            android:textSize="15dp"
+            android:inputType="number"
+            android:layout_below="@+id/cinsiyetler"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:id="@+id/userCinsiyet"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@string/font_family_condensed"
+            android:hint="cinsiyetiniz"
+            android:layout_gravity="center"
+            android:textColor="@color/buttonColor"
+            android:layout_marginTop="1dp"
+            android:textColorHint="@color/buttonColor"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:onClick="cinsiyetAc"
+            android:focusable="false"
+            android:layout_below="@+id/userAd"
+
+            />
+
+
+    </LinearLayout>
+
+</FrameLayout>
